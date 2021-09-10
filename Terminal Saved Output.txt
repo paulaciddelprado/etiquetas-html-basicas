@@ -1,0 +1,1066 @@
+Last login: Wed Sep  1 10:11:04 on console
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Air-de-Paula:~ paulacid$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+==> Checking for `sudo` access (which may request your password).
+Password:
+==> This script will install:
+/usr/local/bin/brew
+/usr/local/share/doc/homebrew
+/usr/local/share/man/man1/brew.1
+/usr/local/share/zsh/site-functions/_brew
+/usr/local/etc/bash_completion.d/brew
+/usr/local/Homebrew
+==> The following existing directories will be made group writable:
+/usr/local/bin
+/usr/local/include
+/usr/local/lib
+/usr/local/share
+/usr/local/share/doc
+/usr/local/share/man
+/usr/local/share/man/man1
+==> The following existing directories will have their owner set to paulacid:
+/usr/local/bin
+/usr/local/include
+/usr/local/lib
+/usr/local/share
+/usr/local/share/doc
+/usr/local/share/man
+/usr/local/share/man/man1
+==> The following existing directories will have their group set to admin:
+/usr/local/bin
+/usr/local/include
+/usr/local/lib
+/usr/local/share
+/usr/local/share/doc
+/usr/local/share/man
+/usr/local/share/man/man1
+==> The following new directories will be created:
+/usr/local/etc
+/usr/local/sbin
+/usr/local/var
+/usr/local/opt
+/usr/local/share/zsh
+/usr/local/share/zsh/site-functions
+/usr/local/var/homebrew
+/usr/local/var/homebrew/linked
+/usr/local/Cellar
+/usr/local/Caskroom
+/usr/local/Frameworks
+==> The Xcode Command Line Tools will be installed.
+
+Press RETURN to continue or any other key to abort
+==> /usr/bin/sudo /bin/chmod u+rwx /usr/local/bin /usr/local/include /usr/local/lib /usr/local/share /usr/local/share/doc /usr/local/share/man /usr/local/share/man/man1
+==> /usr/bin/sudo /bin/chmod g+rwx /usr/local/bin /usr/local/include /usr/local/lib /usr/local/share /usr/local/share/doc /usr/local/share/man /usr/local/share/man/man1
+==> /usr/bin/sudo /usr/sbin/chown paulacid /usr/local/bin /usr/local/include /usr/local/lib /usr/local/share /usr/local/share/doc /usr/local/share/man /usr/local/share/man/man1
+==> /usr/bin/sudo /usr/bin/chgrp admin /usr/local/bin /usr/local/include /usr/local/lib /usr/local/share /usr/local/share/doc /usr/local/share/man /usr/local/share/man/man1
+==> /usr/bin/sudo /bin/mkdir -p /usr/local/etc /usr/local/sbin /usr/local/var /usr/local/opt /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var/homebrew /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Frameworks
+==> /usr/bin/sudo /bin/chmod u=rwx,g=rwx /usr/local/etc /usr/local/sbin /usr/local/var /usr/local/opt /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var/homebrew /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Frameworks
+==> /usr/bin/sudo /bin/chmod g-w,o-w /usr/local/share/zsh /usr/local/share/zsh/site-functions
+==> /usr/bin/sudo /usr/sbin/chown paulacid /usr/local/etc /usr/local/sbin /usr/local/var /usr/local/opt /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var/homebrew /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Frameworks
+==> /usr/bin/sudo /usr/bin/chgrp admin /usr/local/etc /usr/local/sbin /usr/local/var /usr/local/opt /usr/local/share/zsh /usr/local/share/zsh/site-functions /usr/local/var/homebrew /usr/local/var/homebrew/linked /usr/local/Cellar /usr/local/Caskroom /usr/local/Frameworks
+==> /usr/bin/sudo /bin/mkdir -p /usr/local/Homebrew
+==> /usr/bin/sudo /usr/sbin/chown -R paulacid:admin /usr/local/Homebrew
+==> /usr/bin/sudo /bin/mkdir -p /Users/paulaciddelprado/Library/Caches/Homebrew
+==> /usr/bin/sudo /bin/chmod g+rwx /Users/paulaciddelprado/Library/Caches/Homebrew
+==> /usr/bin/sudo /usr/sbin/chown -R paulacid /Users/paulaciddelprado/Library/Caches/Homebrew
+==> Searching online for the Command Line Tools
+==> /usr/bin/sudo /usr/bin/touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
+
+==> Installing Command Line Tools for Xcode-12.5
+==> /usr/bin/sudo /usr/sbin/softwareupdate -i Command\ Line\ Tools\ for\ Xcode-12.5
+Software Update Tool
+
+Finding available software
+
+Downloading Command Line Tools for Xcode
+Downloaded Command Line Tools for Xcode
+Installing Command Line Tools for Xcode
+Done with Command Line Tools for Xcode
+Done.
+==> /usr/bin/sudo /bin/rm -f /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress
+Password:
+Sorry, try again.
+Password:
+==> /usr/bin/sudo /usr/bin/xcode-select --switch /Library/Developer/CommandLineTools
+
+==> Downloading and installing Homebrew...
+remote: Enumerating objects: 190681, done.
+remote: Counting objects: 100% (706/706), done.
+remote: Compressing objects: 100% (372/372), done.
+remote: Total 190681 (delta 392), reused 591 (delta 305), pack-reused 189975
+Receiving objects: 100% (190681/190681), 51.89 MiB | 539.00 KiB/s, done.
+Resolving deltas: 100% (141237/141237), done.
+From https://github.com/Homebrew/brew
+ * [new branch]          dependabot/bundler/Library/Homebrew/mechanize-2.8.2 -> origin/dependabot/bundler/Library/Homebrew/mechanize-2.8.2
+ * [new branch]          dependabot/bundler/Library/Homebrew/mini_portile2-2.6.1 -> origin/dependabot/bundler/Library/Homebrew/mini_portile2-2.6.1
+ * [new branch]          dependabot/bundler/Library/Homebrew/nokogiri-1.12.4 -> origin/dependabot/bundler/Library/Homebrew/nokogiri-1.12.4
+ * [new branch]          master                 -> origin/master
+ * [new branch]          on_os_if_rubocops      -> origin/on_os_if_rubocops
+ * [new branch]          update-man-completions -> origin/update-man-completions
+ * [new tag]             0.1                    -> 0.1
+ * [new tag]             0.2                    -> 0.2
+ * [new tag]             0.3                    -> 0.3
+ * [new tag]             0.4                    -> 0.4
+ * [new tag]             0.5                    -> 0.5
+ * [new tag]             0.6                    -> 0.6
+ * [new tag]             0.7                    -> 0.7
+ * [new tag]             0.7.1                  -> 0.7.1
+ * [new tag]             0.8                    -> 0.8
+ * [new tag]             0.8.1                  -> 0.8.1
+ * [new tag]             0.9                    -> 0.9
+ * [new tag]             0.9.1                  -> 0.9.1
+ * [new tag]             0.9.2                  -> 0.9.2
+ * [new tag]             0.9.3                  -> 0.9.3
+ * [new tag]             0.9.4                  -> 0.9.4
+ * [new tag]             0.9.5                  -> 0.9.5
+ * [new tag]             0.9.8                  -> 0.9.8
+ * [new tag]             0.9.9                  -> 0.9.9
+ * [new tag]             1.0.0                  -> 1.0.0
+ * [new tag]             1.0.1                  -> 1.0.1
+ * [new tag]             1.0.2                  -> 1.0.2
+ * [new tag]             1.0.3                  -> 1.0.3
+ * [new tag]             1.0.4                  -> 1.0.4
+ * [new tag]             1.0.5                  -> 1.0.5
+ * [new tag]             1.0.6                  -> 1.0.6
+ * [new tag]             1.0.7                  -> 1.0.7
+ * [new tag]             1.0.8                  -> 1.0.8
+ * [new tag]             1.0.9                  -> 1.0.9
+ * [new tag]             1.1.0                  -> 1.1.0
+ * [new tag]             1.1.1                  -> 1.1.1
+ * [new tag]             1.1.10                 -> 1.1.10
+ * [new tag]             1.1.11                 -> 1.1.11
+ * [new tag]             1.1.12                 -> 1.1.12
+ * [new tag]             1.1.13                 -> 1.1.13
+ * [new tag]             1.1.2                  -> 1.1.2
+ * [new tag]             1.1.3                  -> 1.1.3
+ * [new tag]             1.1.4                  -> 1.1.4
+ * [new tag]             1.1.5                  -> 1.1.5
+ * [new tag]             1.1.6                  -> 1.1.6
+ * [new tag]             1.1.7                  -> 1.1.7
+ * [new tag]             1.1.8                  -> 1.1.8
+ * [new tag]             1.1.9                  -> 1.1.9
+ * [new tag]             1.2.0                  -> 1.2.0
+ * [new tag]             1.2.1                  -> 1.2.1
+ * [new tag]             1.2.2                  -> 1.2.2
+ * [new tag]             1.2.3                  -> 1.2.3
+ * [new tag]             1.2.4                  -> 1.2.4
+ * [new tag]             1.2.5                  -> 1.2.5
+ * [new tag]             1.2.6                  -> 1.2.6
+ * [new tag]             1.3.0                  -> 1.3.0
+ * [new tag]             1.3.1                  -> 1.3.1
+ * [new tag]             1.3.2                  -> 1.3.2
+ * [new tag]             1.3.3                  -> 1.3.3
+ * [new tag]             1.3.4                  -> 1.3.4
+ * [new tag]             1.3.5                  -> 1.3.5
+ * [new tag]             1.3.6                  -> 1.3.6
+ * [new tag]             1.3.7                  -> 1.3.7
+ * [new tag]             1.3.8                  -> 1.3.8
+ * [new tag]             1.3.9                  -> 1.3.9
+ * [new tag]             1.4.0                  -> 1.4.0
+ * [new tag]             1.4.1                  -> 1.4.1
+ * [new tag]             1.4.2                  -> 1.4.2
+ * [new tag]             1.4.3                  -> 1.4.3
+ * [new tag]             1.5.0                  -> 1.5.0
+ * [new tag]             1.5.1                  -> 1.5.1
+ * [new tag]             1.5.10                 -> 1.5.10
+ * [new tag]             1.5.11                 -> 1.5.11
+ * [new tag]             1.5.12                 -> 1.5.12
+ * [new tag]             1.5.13                 -> 1.5.13
+ * [new tag]             1.5.14                 -> 1.5.14
+ * [new tag]             1.5.2                  -> 1.5.2
+ * [new tag]             1.5.3                  -> 1.5.3
+ * [new tag]             1.5.4                  -> 1.5.4
+ * [new tag]             1.5.5                  -> 1.5.5
+ * [new tag]             1.5.6                  -> 1.5.6
+ * [new tag]             1.5.7                  -> 1.5.7
+ * [new tag]             1.5.8                  -> 1.5.8
+ * [new tag]             1.5.9                  -> 1.5.9
+ * [new tag]             1.6.0                  -> 1.6.0
+ * [new tag]             1.6.1                  -> 1.6.1
+ * [new tag]             1.6.10                 -> 1.6.10
+ * [new tag]             1.6.11                 -> 1.6.11
+ * [new tag]             1.6.12                 -> 1.6.12
+ * [new tag]             1.6.13                 -> 1.6.13
+ * [new tag]             1.6.14                 -> 1.6.14
+ * [new tag]             1.6.15                 -> 1.6.15
+ * [new tag]             1.6.16                 -> 1.6.16
+ * [new tag]             1.6.17                 -> 1.6.17
+ * [new tag]             1.6.2                  -> 1.6.2
+ * [new tag]             1.6.3                  -> 1.6.3
+ * [new tag]             1.6.4                  -> 1.6.4
+ * [new tag]             1.6.5                  -> 1.6.5
+ * [new tag]             1.6.6                  -> 1.6.6
+ * [new tag]             1.6.7                  -> 1.6.7
+ * [new tag]             1.6.8                  -> 1.6.8
+ * [new tag]             1.6.9                  -> 1.6.9
+ * [new tag]             1.7.0                  -> 1.7.0
+ * [new tag]             1.7.1                  -> 1.7.1
+ * [new tag]             1.7.2                  -> 1.7.2
+ * [new tag]             1.7.3                  -> 1.7.3
+ * [new tag]             1.7.4                  -> 1.7.4
+ * [new tag]             1.7.5                  -> 1.7.5
+ * [new tag]             1.7.6                  -> 1.7.6
+ * [new tag]             1.7.7                  -> 1.7.7
+ * [new tag]             1.8.0                  -> 1.8.0
+ * [new tag]             1.8.1                  -> 1.8.1
+ * [new tag]             1.8.2                  -> 1.8.2
+ * [new tag]             1.8.3                  -> 1.8.3
+ * [new tag]             1.8.4                  -> 1.8.4
+ * [new tag]             1.8.5                  -> 1.8.5
+ * [new tag]             1.8.6                  -> 1.8.6
+ * [new tag]             1.9.0                  -> 1.9.0
+ * [new tag]             1.9.1                  -> 1.9.1
+ * [new tag]             1.9.2                  -> 1.9.2
+ * [new tag]             1.9.3                  -> 1.9.3
+ * [new tag]             2.0.0                  -> 2.0.0
+ * [new tag]             2.0.1                  -> 2.0.1
+ * [new tag]             2.0.2                  -> 2.0.2
+ * [new tag]             2.0.3                  -> 2.0.3
+ * [new tag]             2.0.4                  -> 2.0.4
+ * [new tag]             2.0.5                  -> 2.0.5
+ * [new tag]             2.0.6                  -> 2.0.6
+ * [new tag]             2.1.0                  -> 2.1.0
+ * [new tag]             2.1.1                  -> 2.1.1
+ * [new tag]             2.1.10                 -> 2.1.10
+ * [new tag]             2.1.11                 -> 2.1.11
+ * [new tag]             2.1.12                 -> 2.1.12
+ * [new tag]             2.1.13                 -> 2.1.13
+ * [new tag]             2.1.14                 -> 2.1.14
+ * [new tag]             2.1.15                 -> 2.1.15
+ * [new tag]             2.1.16                 -> 2.1.16
+ * [new tag]             2.1.2                  -> 2.1.2
+ * [new tag]             2.1.3                  -> 2.1.3
+ * [new tag]             2.1.4                  -> 2.1.4
+ * [new tag]             2.1.5                  -> 2.1.5
+ * [new tag]             2.1.6                  -> 2.1.6
+ * [new tag]             2.1.7                  -> 2.1.7
+ * [new tag]             2.1.8                  -> 2.1.8
+ * [new tag]             2.1.9                  -> 2.1.9
+ * [new tag]             2.2.0                  -> 2.2.0
+ * [new tag]             2.2.1                  -> 2.2.1
+ * [new tag]             2.2.10                 -> 2.2.10
+ * [new tag]             2.2.11                 -> 2.2.11
+ * [new tag]             2.2.12                 -> 2.2.12
+ * [new tag]             2.2.13                 -> 2.2.13
+ * [new tag]             2.2.14                 -> 2.2.14
+ * [new tag]             2.2.15                 -> 2.2.15
+ * [new tag]             2.2.16                 -> 2.2.16
+ * [new tag]             2.2.17                 -> 2.2.17
+ * [new tag]             2.2.2                  -> 2.2.2
+ * [new tag]             2.2.3                  -> 2.2.3
+ * [new tag]             2.2.4                  -> 2.2.4
+ * [new tag]             2.2.5                  -> 2.2.5
+ * [new tag]             2.2.6                  -> 2.2.6
+ * [new tag]             2.2.7                  -> 2.2.7
+ * [new tag]             2.2.8                  -> 2.2.8
+ * [new tag]             2.2.9                  -> 2.2.9
+ * [new tag]             2.3.0                  -> 2.3.0
+ * [new tag]             2.4.0                  -> 2.4.0
+ * [new tag]             2.4.1                  -> 2.4.1
+ * [new tag]             2.4.10                 -> 2.4.10
+ * [new tag]             2.4.11                 -> 2.4.11
+ * [new tag]             2.4.12                 -> 2.4.12
+ * [new tag]             2.4.13                 -> 2.4.13
+ * [new tag]             2.4.14                 -> 2.4.14
+ * [new tag]             2.4.15                 -> 2.4.15
+ * [new tag]             2.4.16                 -> 2.4.16
+ * [new tag]             2.4.2                  -> 2.4.2
+ * [new tag]             2.4.3                  -> 2.4.3
+ * [new tag]             2.4.4                  -> 2.4.4
+ * [new tag]             2.4.5                  -> 2.4.5
+ * [new tag]             2.4.6                  -> 2.4.6
+ * [new tag]             2.4.7                  -> 2.4.7
+ * [new tag]             2.4.8                  -> 2.4.8
+ * [new tag]             2.4.9                  -> 2.4.9
+ * [new tag]             2.5.0                  -> 2.5.0
+ * [new tag]             2.5.1                  -> 2.5.1
+ * [new tag]             2.5.10                 -> 2.5.10
+ * [new tag]             2.5.11                 -> 2.5.11
+ * [new tag]             2.5.12                 -> 2.5.12
+ * [new tag]             2.5.2                  -> 2.5.2
+ * [new tag]             2.5.3                  -> 2.5.3
+ * [new tag]             2.5.4                  -> 2.5.4
+ * [new tag]             2.5.5                  -> 2.5.5
+ * [new tag]             2.5.6                  -> 2.5.6
+ * [new tag]             2.5.7                  -> 2.5.7
+ * [new tag]             2.5.8                  -> 2.5.8
+ * [new tag]             2.5.9                  -> 2.5.9
+ * [new tag]             2.6.0                  -> 2.6.0
+ * [new tag]             2.6.1                  -> 2.6.1
+ * [new tag]             2.6.2                  -> 2.6.2
+ * [new tag]             2.7.0                  -> 2.7.0
+ * [new tag]             2.7.1                  -> 2.7.1
+ * [new tag]             2.7.2                  -> 2.7.2
+ * [new tag]             2.7.3                  -> 2.7.3
+ * [new tag]             2.7.4                  -> 2.7.4
+ * [new tag]             2.7.5                  -> 2.7.5
+ * [new tag]             2.7.6                  -> 2.7.6
+ * [new tag]             2.7.7                  -> 2.7.7
+ * [new tag]             3.0.0                  -> 3.0.0
+ * [new tag]             3.0.1                  -> 3.0.1
+ * [new tag]             3.0.10                 -> 3.0.10
+ * [new tag]             3.0.11                 -> 3.0.11
+ * [new tag]             3.0.2                  -> 3.0.2
+ * [new tag]             3.0.3                  -> 3.0.3
+ * [new tag]             3.0.4                  -> 3.0.4
+ * [new tag]             3.0.5                  -> 3.0.5
+ * [new tag]             3.0.6                  -> 3.0.6
+ * [new tag]             3.0.7                  -> 3.0.7
+ * [new tag]             3.0.8                  -> 3.0.8
+ * [new tag]             3.0.9                  -> 3.0.9
+ * [new tag]             3.1.0                  -> 3.1.0
+ * [new tag]             3.1.1                  -> 3.1.1
+ * [new tag]             3.1.10                 -> 3.1.10
+ * [new tag]             3.1.11                 -> 3.1.11
+ * [new tag]             3.1.12                 -> 3.1.12
+ * [new tag]             3.1.2                  -> 3.1.2
+ * [new tag]             3.1.3                  -> 3.1.3
+ * [new tag]             3.1.4                  -> 3.1.4
+ * [new tag]             3.1.5                  -> 3.1.5
+ * [new tag]             3.1.6                  -> 3.1.6
+ * [new tag]             3.1.7                  -> 3.1.7
+ * [new tag]             3.1.8                  -> 3.1.8
+ * [new tag]             3.1.9                  -> 3.1.9
+ * [new tag]             3.2.0                  -> 3.2.0
+ * [new tag]             3.2.1                  -> 3.2.1
+ * [new tag]             3.2.10                 -> 3.2.10
+ * [new tag]             3.2.2                  -> 3.2.2
+ * [new tag]             3.2.3                  -> 3.2.3
+ * [new tag]             3.2.4                  -> 3.2.4
+ * [new tag]             3.2.5                  -> 3.2.5
+ * [new tag]             3.2.6                  -> 3.2.6
+ * [new tag]             3.2.7                  -> 3.2.7
+ * [new tag]             3.2.8                  -> 3.2.8
+ * [new tag]             3.2.9                  -> 3.2.9
+Updating files: 100% (2695/2695), done.
+HEAD is now at f0dbd8d9a Merge pull request #11981 from Homebrew/dependabot/bundler/Library/Homebrew/tapioca-0.4.26
+==> Tapping homebrew/core
+remote: Enumerating objects: 1035835, done.
+remote: Counting objects: 100% (44/44), done.
+remote: Compressing objects: 100% (25/25), done.
+remote: Total 1035835 (delta 24), reused 38 (delta 19), pack-reused 1035791
+Receiving objects: 100% (1035835/1035835), 389.19 MiB | 460.00 KiB/s, done.
+Resolving deltas: 100% (710189/710189), done.
+From https://github.com/Homebrew/homebrew-core
+ * [new branch]            master     -> origin/master
+Updating files: 100% (6115/6115), done.
+HEAD is now at 9e5cb0ecbc cppzmq: add 4.8.0 bottle.
+==> Installation successful!
+
+==> Homebrew has enabled anonymous aggregate formulae and cask analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics data has been sent yet (or will be during this `install` run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Next steps:
+- Run `brew help` to get started
+- Further documentation: 
+    https://docs.brew.sh
+MacBook-Air-de-Paula:~ paulacid$ 
+MacBook-Air-de-Paula:~ paulacid$ 
+MacBook-Air-de-Paula:~ paulacid$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+Cloning Oh My Zsh...
+Cloning into '/Users/paulaciddelprado/.oh-my-zsh'...
+remote: Enumerating objects: 1241, done.
+remote: Counting objects: 100% (1241/1241), done.
+remote: Compressing objects: 100% (1201/1201), done.
+remote: Total 1241 (delta 18), reused 1218 (delta 18), pack-reused 0
+Receiving objects: 100% (1241/1241), 869.08 KiB | 643.00 KiB/s, done.
+Resolving deltas: 100% (18/18), done.
+Updating files: 100% (924/924), done.
+
+Looking for an existing zsh config...
+Using the Oh My Zsh template file and adding it to ~/.zshrc.
+
+Time to change your default shell to zsh:
+Do you want to change your default shell to zsh? [Y/n] 
+Changing the shell...
+Changing shell for paulacid.
+Password for paulacid: 
+Shell successfully changed to '/bin/zsh'.
+
+         __                                     __
+  ____  / /_     ____ ___  __  __   ____  _____/ /_
+ / __ \/ __ \   / __ `__ \/ / / /  /_  / / ___/ __ \
+/ /_/ / / / /  / / / / / / /_/ /    / /_(__  ) / / /
+\____/_/ /_/  /_/ /_/ /_/\__, /    /___/____/_/ /_/
+                        /____/                       ....is now installed!
+
+
+Before you scream Oh My Zsh! please look over the ~/.zshrc file to select plugins, themes, and options.
+
+• Follow us on Twitter: https://twitter.com/ohmyzsh
+• Join our Discord server: https://discord.gg/ohmyzsh
+• Get stickers, shirts, coffee mugs and other swag: https://shop.planetargon.com/collections/oh-my-zsh
+
+➜  ~ 
+➜  ~ 
+➜  ~ pwd 
+/Users/paulaciddelprado
+➜  ~ 
+➜  ~ $ pwd
+zsh: command not found: $
+➜  ~ $pwd
+➜  ~ mkdir
+usage: mkdir [-pv] [-m mode] directory ...
+➜  ~ otra carpeta
+zsh: command not found: otra
+➜  ~ mkdir otra carpeta
+➜  ~ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+The $ZSH folder already exists (/Users/paulaciddelprado/.oh-my-zsh).
+
+You ran the installer with the $ZSH setting or the $ZSH variable is
+exported. You have 3 options:
+
+1. Unset the ZSH variable when calling the installer:
+   `ZSH= sh install.sh`
+2. Install Oh My Zsh to a directory that doesn't exist yet:
+   `ZSH=path/to/new/ohmyzsh/folder sh install.sh`
+3. (Caution) If the folder doesn't contain important information,
+   you can just remove it with `rm -r /Users/paulaciddelprado/.oh-my-zsh`
+
+➜  ~ rm
+usage: rm [-f | -i] [-dPRrvW] file ...
+       unlink file
+➜  ~ git --version
+git version 2.33.0
+➜  ~ pwd ~
+pwd: too many arguments
+➜  ~ pwd
+/Users/paulaciddelprado
+➜  ~ tree
+zsh: command not found: tree
+➜  ~ ls
+Applications Documents    Library      Music        Public       otra
+Desktop      Downloads    Movies       Pictures     carpeta
+➜  ~ cd
+➜  ~ cd documents
+➜  documents 
+➜  documents      
+➜  documents mkdir hello-world
+➜  documents cd hello-world
+➜  hello-world git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /Users/paulaciddelprado/Documents/hello-world/.git/
+➜  hello-world git:(master) 
+➜  hello-world git:(master) 
+➜  hello-world git:(master) toched readme.
+zsh: command not found: toched
+➜  hello-world git:(master) touched readme.txt
+zsh: command not found: touched
+➜  hello-world git:(master) touch readme.txtx
+➜  hello-world git:(master) ✗ touch readme.txt
+➜  hello-world git:(master) ✗ vim readme.txt
+➜  hello-world git:(master) ✗ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	readme.txt
+	readme.txtx
+
+nothing added to commit but untracked files present (use "git add" to track)
+➜  hello-world git:(master) ✗ git commint 
+git: 'commint' is not a git command. See 'git --help'.
+
+The most similar command is
+	commit
+➜  hello-world git:(master) ✗ git commit -m "created readme"
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	readme.txt
+	readme.txtx
+
+nothing added to commit but untracked files present (use "git add" to track)
+➜  hello-world git:(master) ✗ git diff
+➜  hello-world git:(master) ✗ :git add
+zsh: command not found: :git
+➜  hello-world git:(master) ✗ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	readme.txt
+	readme.txtx
+
+nothing added to commit but untracked files present (use "git add" to track)
+➜  hello-world git:(master) ✗ git add .
+➜  hello-world git:(master) ✗ git commit "segundo commit en git"
+error: pathspec 'segundo commit en git' did not match any file(s) known to git
+➜  hello-world git:(master) ✗ git commit -- "segundo commit en git"
+error: pathspec 'segundo commit en git' did not match any file(s) known to git
+➜  hello-world git:(master) ✗ git commit -m "segundo commit en git"
+[master (root-commit) 36a9dce] segundo commit en git
+ Committer: Paula Cid del Prado <paulacid@MacBook-Air-de-Paula.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 1 insertion(+)
+ create mode 100644 readme.txt
+ create mode 100644 readme.txtx
+➜  hello-world git:(master) git add . 
+➜  hello-world git:(master) git config -- global     
+error: key does not contain a section: global
+➜  hello-world git:(master) git config --global
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+➜  hello-world git:(master) git config --global user.username "paulaciddelprado"
+➜  hello-world git:(master) git config --global user.username "paulaciddelprado" 
+➜  hello-world git:(master) git config --global user.username                   
+paulaciddelprado
+➜  hello-world git:(master) git config --global user.username
+paulaciddelprado
+➜  hello-world git:(master) 
+➜  hello-world git:(master) git remote addo origin https://github.com/paulaciddelprado/hello-world.git
+error: Unknown subcommand: addo
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+➜  hello-world git:(master) git remote -v
+➜  hello-world git:(master) git remote -v origin
+error: Unknown subcommand: origin
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+➜  hello-world git:(master) git remote-v
+git: 'remote-v' is not a git command. See 'git --help'.
+
+The most similar command is
+	remote-fd
+➜  hello-world git:(master) git remote -v
+➜  hello-world git:(master) git remote addo origin https://github.com/paulaciddelprado/hello-world.git
+
+error: Unknown subcommand: addo
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+➜  hello-world git:(master) git remote add origin https://github.com/paulaciddelprado/hello-world.git 
+
+➜  hello-world git:(master) git remote v-
+error: Unknown subcommand: v-
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+➜  hello-world git:(master) git remote -v
+origin	https://github.com/paulaciddelprado/hello-world.git (fetch)
+origin	https://github.com/paulaciddelprado/hello-world.git (push)
+➜  hello-world git:(master) git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/paulaciddelprado/hello-world.git'
+➜  hello-world git:(master) git push origin master
+Username for 'https://github.com': paulaciddelprado
+Password for 'https://paulaciddelprado@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/paulaciddelprado/hello-world.git/'
+➜  hello-world git:(master) git push origin master
+Username for 'https://github.com': paulaciddelprado
+Password for 'https://paulaciddelprado@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/paulaciddelprado/hello-world.git/'
+➜  hello-world git:(master) git push origin master
+Username for 'https://github.com': paulaciddelprado
+Password for 'https://paulaciddelprado@github.com': 
+
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/paulaciddelprado/hello-world.git/'
+➜  hello-world git:(master) 
+➜  hello-world git:(master) git push origin master
+Username for 'https://github.com': paulaciddelprado
+Password for 'https://paulaciddelprado@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/paulaciddelprado/hello-world.git/'
+➜  hello-world git:(master) git push origin master
+Username for 'https://github.com': paulaciddelprado
+Password for 'https://paulaciddelprado@github.com': 
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/paulaciddelprado/hello-world.git/'
+➜  hello-world git:(master) 
+➜  hello-world git:(master) ssh-keygen -t rsa -b 4096 -C "cid.6924@gmail.com"    
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/paulaciddelprado/.ssh/id_rsa): /Users/paulaciddelprado/Documents/hello-world 
+/Users/paulaciddelprado/Documents/hello-world already exists.
+Overwrite (y/n)? n
+➜  hello-world git:(master) /Users/paulaciddelprado/Documents/hello-world/key
+➜  key git:(master) ✗  
+➜  key git:(master) ✗ ssh-keygen -t rsa -b 4096 -C "cid.6924@gmail.com" 
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/paulaciddelprado/.ssh/id_rsa): /Users/paulaciddelprado/Documents/hello-world/key
+/Users/paulaciddelprado/Documents/hello-world/key already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Saving key "/Users/paulaciddelprado/Documents/hello-world/key" failed: Is a directory
+➜  key git:(master) ✗ ssh-keygen -t rsa -b 4096 -C "cid.6924@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/paulaciddelprado/.ssh/id_rsa): 
+Created directory '/Users/paulaciddelprado/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/paulaciddelprado/.ssh/id_rsa.
+Your public key has been saved in /Users/paulaciddelprado/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:OBY43p7RLR8hpDWLQxBMS34RzG/QWsYhLhEoyCgHjEw cid.6924@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|XE +B*=+=.       |
+|*+oo.*+B=o       |
+|.o  * B*o .      |
+|   . =.=oo .     |
+|    . *.S o      |
+|     o + o .     |
+|      o   .      |
+|                 |
+|                 |
++----[SHA256]-----+
+➜  key git:(master) ✗ eval "$(ssh-agent -s)"
+Agent pid 17063
+➜  key git:(master) ✗ open ~/.ssh/config
+The file /Users/paulaciddelprado/.ssh/config does not exist.
+➜  key git:(master) ✗ touch ~/.ssh/config
+➜  key git:(master) ✗ open ~/.ssh/config
+➜  key git:(master) ✗ ssh-add -K ~/.ssh/id_rsa
+Identity added: /Users/paulaciddelprado/.ssh/id_rsa (cid.6924@gmail.com)
+➜  key git:(master) ✗ pbcopy < ~/.ssh/id_rsa.pub
+➜  key git:(master) ✗ clip < ~/.ssh/id_rsa.pub
+zsh: command not found: clip
+➜  key git:(master) ✗ pbcopy < ~/.ssh/id_rsa.pub
+➜  key git:(master) ✗ clip < ~/.ssh/id_rsa.pub
+zsh: command not found: clip
+➜  key git:(master) ✗ pbcopy < ~/.ssh/id_rsa.pub
+➜  key git:(master) ✗ ssh -T git@github.com
+The authenticity of host 'github.com (140.82.113.3)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,140.82.113.3' (RSA) to the list of known hosts.
+Hi paulaciddelprado! You've successfully authenticated, but GitHub does not provide shell access.
+➜  key git:(master) ✗ ssh-keygen -p
+Enter file in which the key is (/Users/paulaciddelprado/.ssh/id_rsa): 
+Key has comment 'cid.6924@gmail.com'
+Enter new passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved with the new passphrase.
+➜  key git:(master) ✗ ssh-agent
+SSH_AUTH_SOCK=/var/folders/kp/dvt__09148nbcywyndjpm22h0000gn/T//ssh-dDLLrGnMwxH5/agent.17475; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=17476; export SSH_AGENT_PID;
+echo Agent pid 17476;
+➜  key git:(master) ✗ ssh-keygen -p
+Enter file in which the key is (/Users/paulaciddelprado/.ssh/id_rsa): 
+Key has comment 'cid.6924@gmail.com'
+Enter new passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved with the new passphrase.
+➜  key git:(master) ✗ ls
+➜  key git:(master) ✗ cd
+➜  ~ cd
+➜  ~ ld
+
+ld: warning: platform not specified
+ld: warning: -arch not specified
+ld: warning: No platform min-version specified on command line
+ld: no object files specified
+➜  ~ 
+➜  ~ vim readme.txt
+➜  ~ vim readme.txt
+➜  ~ vim readme.txt
+➜  ~ git remote -v
+fatal: not a git repository (or any of the parent directories): .git
+➜  ~ dwp
+zsh: command not found: dwp
+➜  ~ pwd
+/Users/paulaciddelprado
+➜  ~ pwd
+/Users/paulaciddelprado
+➜  ~ ls
+Applications Documents    Library      Music        Public       otra
+Desktop      Downloads    Movies       Pictures     carpeta      readme.txt
+➜  ~ readme.tx
+zsh: command not found: readme.tx
+➜  ~ pwd
+/Users/paulaciddelprado
+➜  ~ ls
+Applications Documents    Library      Music        Public       otra
+Desktop      Downloads    Movies       Pictures     carpeta      readme.txt
+➜  ~ Documents
+➜  Documents pwd
+/Users/paulaciddelprado/Documents
+➜  Documents git remote-v
+git: 'remote-v' is not a git command. See 'git --help'.
+
+The most similar command is
+	remote-fd
+➜  Documents remote-fd
+zsh: command not found: remote-fd
+➜  Documents git remote-fd
+usage: git remote-fd <remote> <url>
+➜  Documents git remote -v
+fatal: not a git repository (or any of the parent directories): .git
+➜  Documents git status
+fatal: not a git repository (or any of the parent directories): .git
+➜  Documents git remote origin
+fatal: not a git repository (or any of the parent directories): .git
+➜  Documents git remote rm origin
+fatal: not a git repository (or any of the parent directories): .git
+➜  Documents pwd
+/Users/paulaciddelprado/Documents
+➜  Documents ls
+Adobe                         Datos de usuario de Microsoft Zoom
+Cosas robadas                 ELLIS NOAHM.pdf               hello-world
+➜  Documents cd      
+➜  ~ pwd
+/Users/paulaciddelprado
+➜  ~ cd Do 
+cd: no such file or directory: Do
+➜  ~ cd Documents/hello-world 
+➜  hello-world git:(master) ✗ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+
+nothing added to commit but untracked files present (use "git add" to track)
+➜  hello-world git:(master) ✗ git log
+➜  hello-world git:(master) ✗ rm .DS_Store 
+➜  hello-world git:(master) git status
+On branch master
+nothing to commit, working tree clean
+➜  hello-world git:(master) ls  
+key         readme.txt  readme.txtx
+➜  hello-world git:(master) vim readme.txt
+➜  hello-world git:(master) ✗ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+➜  hello-world git:(master) ✗ git add .
+➜  hello-world git:(master) ✗ git commit -m "Hola"
+[master b502dbb] Hola
+ Committer: Paula Cid del Prado <paulacid@MacBook-Air-de-Paula.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+➜  hello-world git:(master) pwd
+/Users/paulaciddelprado/Documents/hello-world
+➜  hello-world git:(master) git version
+git version 2.33.0
+➜  hello-world git:(master) git --version
+git version 2.33.0
+➜  hello-world git:(master) git config --global user.name "paulaciddelprado"
+➜  hello-world git:(master) git config --global user.email "cid.6924@gmail.com"
+➜  hello-world git:(master) mkdir hola-mundo
+➜  hello-world git:(master) ✗ cd hola-mundo
+➜  hola-mundo git:(master) ✗ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /Users/paulaciddelprado/Documents/hello-world/hola-mundo/.git/
+➜  hola-mundo git:(master) git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+➜  hola-mundo git:(master) git commit
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+➜  hola-mundo git:(master) pwd
+/Users/paulaciddelprado/Documents/hello-world/hola-mundo
+➜  hola-mundo git:(master) git init
+Reinitialized existing Git repository in /Users/paulaciddelprado/Documents/hello-world/hola-mundo/.git/
+➜  hola-mundo git:(master) git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+➜  hola-mundo git:(master) git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+➜  hola-mundo git:(master) git add .
+➜  hola-mundo git:(master) git init
+Reinitialized existing Git repository in /Users/paulaciddelprado/Documents/hello-world/hola-mundo/.git/
+➜  hola-mundo git:(master) git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+➜  hola-mundo git:(master) git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+➜  hola-mundo git:(master) ls
+➜  hola-mundo git:(master) cd hola mundo
+cd: no such file or directory: /Users/paulaciddelprado/Documents/hello-world/mundo-mundo
+➜  hola-mundo git:(master) cd hola-mundo
+cd: no such file or directory: hola-mundo
+➜  hola-mundo git:(master) cd mundo-mundo 
+cd: no such file or directory: mundo-mundo
+➜  hola-mundo git:(master) ls
+➜  hola-mundo git:(master) cd
+➜  ~ pwd
+/Users/paulaciddelprado
+➜  ~ cd Documents 
+➜  Documents cd hello-world 
+➜  hello-world git:(master) ✗ cd hola-mundo 
+➜  hola-mundo git:(master) git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+➜  hola-mundo git:(master) vim readme.txt
+➜  hola-mundo git:(master) ✗ git commit
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	readme.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+➜  hola-mundo git:(master) ✗ git log
+fatal: your current branch 'master' does not have any commits yet
+➜  hola-mundo git:(master) ✗ git commit
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	readme.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+➜  hola-mundo git:(master) ✗ git add readme.txt
+➜  hola-mundo git:(master) ✗ git commit
+[master (root-commit) 790789d] Este es el primer commit de readme
+ 1 file changed, 1 insertion(+)
+ create mode 100644 readme.txt
+➜  hola-mundo git:(master) git status
+On branch master
+nothing to commit, working tree clean
+➜  hola-mundo git:(master) git init
+Reinitialized existing Git repository in /Users/paulaciddelprado/Documents/hello-world/hola-mundo/.git/
+➜  hola-mundo git:(master) git status
+On branch master
+nothing to commit, working tree clean
+➜  hola-mundo git:(master) git status
+On branch master
+nothing to commit, working tree clean
+➜  hola-mundo git:(master) git add readme.txt
+➜  hola-mundo git:(master) git commit -m "Created readme"
+On branch master
+nothing to commit, working tree clean
+➜  hola-mundo git:(master) git diff
+➜  hola-mundo git:(master) vim readme.txt
+➜  hola-mundo git:(master) ✗ git diff
+➜  hola-mundo git:(master) ✗ git commit
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   readme.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+➜  hola-mundo git:(master) ✗ git add .
+➜  hola-mundo git:(master) ✗ git commit
+[master 1e310f2] Cambiamos por segunda vez el readme.txt
+ 1 file changed, 2 insertions(+)
+➜  hola-mundo git:(master) git status
+On branch master
+nothing to commit, working tree clean
+➜  hola-mundo git:(master) git commit -m "add sedungo cambio"
+On branch master
+nothing to commit, working tree clean
+➜  hola-mundo git:(master) git config --global user.username paulaciddelprado              
+➜  hola-mundo git:(master) git config --global user.username "paulaciddelprado"
+➜  hola-mundo git:(master) git config --global user.username
+paulaciddelprado
+➜  hola-mundo git:(master) git remote add origin git@github.com:paulaciddelprado/hello-world.git
+➜  hola-mundo git:(master) git push origin master
+Warning: Permanently added the RSA host key for IP address '140.82.114.4' to the list of known hosts.
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (6/6), 493 bytes | 70.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:paulaciddelprado/hello-world.git
+ * [new branch]      master -> master
+➜  hola-mundo git:(master) https://github.com/paulaciddelprado/patchwork.git
+zsh: no such file or directory: https://github.com/paulaciddelprado/patchwork.git
+➜  hola-mundo git:(master) ✗ commit 
+zsh: command not found: commit
+➜  hola-mundo git:(master) ✗ git commit
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+
+nothing added to commit but untracked files present (use "git add" to track)
+➜  hola-mundo git:(master) ✗ git add . 
+➜  hola-mundo git:(master) ✗ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   .DS_Store
+
+➜  hola-mundo git:(master) ✗ git log 
+➜  hola-mundo git:(master) ✗ rm .DS_Store 
+➜  hola-mundo git:(master) ✗    git commit -a
+On branch master
+nothing to commit, working tree clean
+➜  hola-mundo git:(master) ✗ 
