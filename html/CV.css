@@ -1,0 +1,16 @@
+body {
+    background-color: lightgrey;
+}
+
+.title {
+    text-align: center;
+    color: black;
+
+}
+
+
+#caja1, #caja2 {
+    background-color: goldenrod;
+    width: 400px;
+    height: 200px;
+}

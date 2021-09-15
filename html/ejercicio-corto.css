@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(5, 199, 5);
+}
+
+
+.title {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 40px;
+}
+
+.p-1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: whitesmoke;
+    font-size: 20px;
+
+}
+
+.p-2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: rgb(251, 251, 151);
+    font-size: 20px;
+
+}
+
+.p-3 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:normal;
+    color: yellow;
+    font-size: 20px;
+
+}
+
+.p-4 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: white;
+    font-size: 15px;
+
+}
+
+.p-5 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    color: yellow;
+    font-size: 20px;
+
+}
+
+.p-6 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color:red;
+    font-size: 20px;
+
+}
+
+.diferencia {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:red;   
+    background-color: black;
+}

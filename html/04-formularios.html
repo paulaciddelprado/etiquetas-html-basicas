@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Formularios</title>
+    </head>
+    <body>
+        <h1>Formularios</h1>
+        <!-- action se refiere a la acción que se realizará /
+        method hace referencia al HTTP usado para enviar los datos, método get y método post, get es el método por defecto-->
+        <form>
+        <p>
+            <label for="">Nombre: </label>
+            <input type="text" name="name" />
+        </p>
+        <p>
+            <label for="">Correo electrónico: </label>
+            <input type="text" name="email"/>
+        </p>
+       
+        <p>
+            <label for="password">Contraseña: </label>
+            <input type="password" name="password"/> 
+        </p>
+
+        <p>
+            <label for="">Publicacion</label>
+            <textarea name= "" id="" cols="50" rows="20"> </textarea>
+        </p>
+
+        <p>
+        <label for=""> Color favorito</label>
+        <select name="color">
+            <option value="1">Rojo</option>
+            <option value="2">Verde</option>
+            <option value="3">Azul</option>
+
+        </select>
+        </p>
+
+        <p>
+    <label for="">Rango de edad</label>
+    <label for="">De 18 a 29</label>
+    <input type="radio" name="edad" id="">
+</p> <p>
+    <label for="">De 30 a 39</label>
+    <input type="radio" name="edad" id="">
+</p> <p>
+    <label for="">De 40 a 49</label>
+    <input type="radio" name="edad" id="">
+</p>
+
+    <!-- <input type="submit" value="Guardar datos" > -->
+    <button type="submit">Guardar datos</button>
+
+
+<!--Método POST para ocultar datos sensibles-->
+</form>    
+</body>
+
+</html>
