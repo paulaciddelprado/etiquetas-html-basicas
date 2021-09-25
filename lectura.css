@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+}
+
+.title {
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: right;
+    color: red;
+
+}
+.subtitle {
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: left;
+    color: black;
+
+}
+
+.text1 {
+    font-size: 17px;
+    font-family: sans-serif;
+    text-align: inherit;
+    color: black;
+}
+
+.footer {
+font-size: 10px;
+font-family: sans-serif;
+text-align: center;
+color: black;
+}
+
